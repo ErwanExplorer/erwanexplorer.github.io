@@ -1,0 +1,29 @@
+footer {
+    background-color: $backgroundColor;
+    color: $textColor;
+    padding: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-logo {
+        height: 5em;
+        margin-right: 1rem;
+        border: #d6d6d6 1px solid;
+        border-radius: 50%;
+    }
+
+    a {
+        color: $textColor;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

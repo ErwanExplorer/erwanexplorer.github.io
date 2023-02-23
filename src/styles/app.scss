@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+
+  p {
+    color: $textColor;
+    font-size: 1.2em;
+  }
+}
+
+.logo-img {
+  height: 20em;
+  pointer-events: none;
+}
+
+
+h1 {
+  font-size: 1.5em;
+  color: $titleColor;
+}
